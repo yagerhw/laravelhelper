@@ -1,12 +1,11 @@
 {
-	"name": "yagerhw/laravelhelper",
+	"name": "yager/laravelhelper",
 	"description": "A helper package for laravel",
 	"type": "library",
 	"homepage": "https://github.com/yagerhw/laravelhelper",
 	"autoload": {
 		"psr-4": {
-			"Yager\\Laravelhelper\\": "src/",
-			"tests\\": "tests/"
+			"Yager\\Laravelhelper\\": "src/"
 		}
 	},
 	"authors": [
