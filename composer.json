@@ -1,0 +1,23 @@
+{
+	"name": "yagerhw/laravelhelper",
+	"description": "A helper package for laravel",
+	"type": "library",
+	"homepage": "https://github.com/yagerhw/laravelhelper",
+	"autoload": {
+		"psr-4": {
+			"Yager\\Laravelhelper\\": "src/",
+			"tests\\": "tests/"
+		}
+	},
+	"authors": [
+		{
+			"name": "Yager",
+			"email": "yagerguo@126.com"
+		}
+	],
+	"require": {
+		"php": ">=7.4",
+		"laravel/framework": ">=8.0",
+		"yager/phphelper": "^0.3.0"
+	}
+}
