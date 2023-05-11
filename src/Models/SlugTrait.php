@@ -18,7 +18,7 @@ trait SlugTrait
         });
     }
 
-    protected function generateSlug()
+    public function generateSlug()
     {
         if (!property_exists($this, 'slugField')) {
             return;
